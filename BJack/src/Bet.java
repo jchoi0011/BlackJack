@@ -32,6 +32,7 @@ public class Bet													// This is the class to start off the bet
 	return betVal;
 	}
 	
+	
 	public void setShoot(int shoot)									//setter
 	{
 		this.shoot = shoot;
@@ -40,5 +41,15 @@ public class Bet													// This is the class to start off the bet
 	public int getShoot()											//getter
 	{
 		return shoot;
+	}
+	
+	public void setBetVal(int betVal)									//setter
+	{
+		this.betVal = betVal;
+	}
+
+	public int getBetVal()											//getter
+	{
+		return betVal;
 	}
 }

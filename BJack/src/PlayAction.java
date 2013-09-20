@@ -9,13 +9,6 @@ public class PlayAction
 	{	
 	}
 	
-	public PlayAction(int wallet, int pot, int betAmt)
-	{
-		this.wallet = wallet;
-		this.pot = pot;
-		this.betAmt = betAmt;
-	}
-	
 	
 	public int getWallet() 						// getter for wallet
 	{
